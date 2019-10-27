@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 /* To Run
 
  Open Terminal 1: nc -l 9999
- Open Terminal 2: flink run -c dev.shreyas.flink.course.datastreams.basics.main.WordCountSocketExample path/to/jar/file
+ Open Terminal 2: flink run -c dev.shreyas.flink.course.datastreams.basics.main.Chap01WordCountSocketExample path/to/jar/file
 
 
 Test Output:
@@ -23,7 +23,7 @@ Test Output:
     (shreyaas,1)
  */
 
-public class WordCountSocketExample {
+public class Chap01WordCountSocketExample {
 
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

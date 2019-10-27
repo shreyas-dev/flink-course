@@ -14,7 +14,7 @@ import org.apache.flink.util.Collector;
 
 // The only difference between fold and reduce operator is reduce return the same output as input
 // and fold output / return type can vary.
-public class ReduceAndFoldOperation {
+public class Chap02ReduceAndFoldOperation {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         final ParameterTool parameterTool = ParameterTool.fromArgs(args);
